@@ -1,0 +1,6 @@
+public class Mat {
+
+	public static int random(int a) {
+		int num = (int) Math.round(Math.random() * a);
+		return num;
+	}
